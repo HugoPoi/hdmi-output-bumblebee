@@ -1,0 +1,7 @@
+#!/bin/sh
+sudo ln -s -f /etc/bumblebee/bumblebee.hdmi.conf /etc/bumblebee/bumblebee.conf
+sudo service bumblebeed restart
+sleep 2
+optirun true
+/usr/bin/intel-virtual-output
+

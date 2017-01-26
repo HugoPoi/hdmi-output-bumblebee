@@ -1,0 +1,7 @@
+#!/bin/sh
+sudo ln -s -f /etc/bumblebee/bumblebee.default.conf /etc/bumblebee/bumblebee.conf
+killall intel-virtual-output
+optirun false
+sudo service bumblebeed restart
+cat /proc/acpi/bbswitch
+
