@@ -13,6 +13,7 @@ post](http://www.unixreich.com/blog/2013/linux-nvidia-optimus-on-thinkpad-w520w5
 1. `mv /etc/bumblebee/bumblebee.conf /etc/bumblebee/bumblebee.default.conf`
 1. `ln -s /etc/bumblebee/bumblebee.default.conf /etc/bumblebee/bumblebee.conf`
 1. `cp ./bumblebee.hdmi.conf /etc/bumblebee/bumblebee.hdmi.conf`
+1. `cp ./xorg.config.nvidia.hdmi /etc/bumblebee/xorg.config.nvidia.hdmi`
 1. You may need to adapt the `bumblebee.hdmi.conf` accordling to your
    setup
 
