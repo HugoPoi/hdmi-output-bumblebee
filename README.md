@@ -22,6 +22,8 @@ post](http://www.unixreich.com/blog/2013/linux-nvidia-optimus-on-thinkpad-w520w5
 1. Disable Hdmi `./disable-hdmi`
 
 ##More Info
-* Tested with Ubuntu 14.04 and nvidia-340.
+* Tested with LinuxMint 17.x and `nvidia-340`.
+* Tested with LinuxMint 18.1 and `nvidia-340`.
+* On LinuxMint 18.1 encounter issue with bumblebee, you need to remove `xserver-xorg-legacy` [issue #749](https://github.com/Bumblebee-Project/Bumblebee/issues/749)
 * `bumblebee.default.conf` is provided for example
 
